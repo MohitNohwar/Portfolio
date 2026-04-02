@@ -1,0 +1,18 @@
+:root {
+  --bg-primary: #000000;
+  --bg-secondary: #090909;
+  --card-bg: #111111;
+  --border-color: #e5e7eb;
+  --typewriter-color: rgb(142 207 214 / var(--tw-text-opacity, 1));
+
+  --text-primary: #f8f8f8;
+  --text-secondary: #c4c4c4;
+  --text-muted: #7a7a7a;
+
+  --accent-color: #d4d4d4;
+  --accent-hover: #999999;
+
+  --section-padding: 100px 8%;
+  --border-radius: 16px;
+  --transition: 0.3s ease;
+}

@@ -1,0 +1,21 @@
+.about {
+  background-color: transparent;
+  color: var(--text-primary);
+}
+
+.about-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.about-content p {
+  font-size: 18px;
+  line-height: 1.9;
+  color: var(--text-secondary);
+}

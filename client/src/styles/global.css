@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap");
+@import "./variables.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  text-align: center;
+}
+
+section {
+  padding: var(--section-padding);
+  background-color: transparent;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.section-title,
+.navbar-logo,
+.skill-category,
+.project-title,
+.footer-name,
+.hero-title,
+.contact-text,
+.project-link,
+.btn {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.section-title {
+  font-size: 38px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 35px;
+}
+
+.typewriter-text {
+  color: var(--typewriter-color);
+  font-weight: 700;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
