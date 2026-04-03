@@ -12,10 +12,10 @@ function Footer() {
         </p>
 
         <div className="footer-links">
-          <a href="https://github.com/" target="_blank" rel="noreferrer">
+          <a href="https://github.com/MohitNohwar" target="_blank" rel="noreferrer">
             GitHub
           </a>
-          <a href="https://linkedin.com/" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/in/mohit-chaudhary-328a47341/" target="_blank" rel="noreferrer">
             LinkedIn
           </a>
         </div>
