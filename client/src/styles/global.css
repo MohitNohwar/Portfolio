@@ -68,3 +68,144 @@ ul {
   margin: 0 auto;
   text-align: center;
 }
+
+/* ----- Responsive breakpoints ----- */
+@media (max-width: 1024px) {
+  .navbar-container {
+    width: 95%;
+  }
+
+  .hero {
+    padding: 0 6%;
+  }
+
+  .hero-name {
+    font-size: 56px;
+  }
+
+  .hero-title {
+    font-size: 26px;
+  }
+
+  .project-card,
+  .skill-card {
+    padding: 22px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    text-align: left;
+  }
+
+  .section-title {
+    font-size: 32px;
+    margin-bottom: 25px;
+  }
+
+  .navbar {
+    height: auto;
+    padding: 0.7rem 0;
+  }
+
+  .navbar-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .navbar-links {
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .navbar-links a {
+    font-size: 16px;
+  }
+
+  .hero {
+    min-height: auto;
+    padding: 90px 5% 40px;
+  }
+
+  .hero-content {
+    padding-top: 0;
+    max-width: 95%;
+  }
+
+  .hero-name {
+    font-size: 46px;
+    white-space: normal;
+    min-height: unset;
+  }
+
+  .hero-title {
+    font-size: 22px;
+  }
+
+  .hero-description {
+    font-size: 16px;
+    max-width: 100%;
+  }
+
+  .projects-grid, .skills-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .about-container,
+  .contact-container {
+    padding: 0 4%;
+  }
+
+  .contact {
+    padding: 70px 4% 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1, h2, h3, h4, h5, h6,
+  .section-title,
+  .navbar-logo,
+  .project-title,
+  .skill-category,
+  .hero-title,
+  .footer-name {
+    font-size: clamp(16px, 5vw, 26px);
+  }
+
+  .hero-name {
+    font-size: clamp(28px, 10vw, 42px);
+  }
+
+  .hero-intro,
+  .hero-description,
+  .contact-text {
+    font-size: 14px;
+  }
+
+  .btn,
+  .project-link,
+  .contact-form button {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+  }
+
+  .navbar-links {
+    justify-content: center;
+  }
+
+  .section-title {
+    margin-bottom: 20px;
+  }
+
+  section {
+    padding: 45px 5%;
+  }
+}
